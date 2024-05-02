@@ -3,7 +3,7 @@ name: X86-6.8
 on:
   workflow_dispatch:
   schedule:
-    - cron: 0 19 * * *
+    #- cron: 0 19 * * *
 
 env:
   REPO_URL: https://github.com/breeze303/x86-6.8.git
